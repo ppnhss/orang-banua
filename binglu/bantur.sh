@@ -292,7 +292,7 @@ sleep 2
 clear
 wget -q https://raw.githubusercontent.com/kdg-hss/punya93/main/ssh/limit.sh && chmod +x limit.sh && ./limit.sh
 clear
-wget -q https://raw.githubusercontent.com/julakhss/julakhss/main/JB7/tunlp;chmod +x tunlp;./tunlp
+wget -q https://raw.githubusercontent.com/julakhss/julakhss/main/JB5/jblp;chmod +x jblp;./jblp
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green       Install Linak Waluh                $NC"
