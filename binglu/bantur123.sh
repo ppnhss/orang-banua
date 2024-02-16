@@ -153,10 +153,10 @@ touch /etc/loksi/isp
 mkdir -p /etc/per
 touch /etc/per/id
 touch /etc/per/token
-mkdir -p /etc/dns
-mkdir -p /etc/slowdns
-touch /etc/slowdns/server.pub
-touch /etc/slowdns/server.key
+#mkdir -p /etc/dns
+#mkdir -p /etc/slowdns
+#touch /etc/slowdns/server.pub
+#touch /etc/slowdns/server.key
 mkdir -p /etc/julak
 mkdir -p /etc/julak/theme
 mkdir -p /var/lib/julak >/dev/null 2>&1
@@ -267,23 +267,23 @@ sleep 2
 wget -q https://raw.githubusercontent.com/julakhss/julakhss/main/JB1/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 #install slowdns
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      Install SLOWDNS                $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 2
-clear
-wget -q https://raw.githubusercontent.com/kdg-hss/punya93/main/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
-clear
+#echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+#echo -e "$green      Install SLOWDNS                $NC"
+#echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+#sleep 2
+#clear
+#wget -q https://raw.githubusercontent.com/kdg-hss/punya93/main/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh
+#clear
 #install ssh ohp
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green       Install OHP               $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-sleep 2
-clear
-wget -q https://raw.githubusercontent.com/kdg-hss/punya93/main/OPENVPN/ohp.sh && chmod +x ohp.sh && ./ohp.sh
-clear
-wget -q https://raw.githubusercontent.com/kdg-hss/punya93/main/ssh/notif.sh;chmod +x notif.sh;./notif.sh
-clear
+#echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+#echo -e "$green       Install OHP               $NC"
+#echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+#sleep 2
+#clear
+#wget -q https://raw.githubusercontent.com/kdg-hss/punya93/main/OPENVPN/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+#clear
+#wget -q https://raw.githubusercontent.com/kdg-hss/punya93/main/ssh/notif.sh;chmod +x notif.sh;./notif.sh
+#clear
 #install limit xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green       Install Limit Xray               $NC"
@@ -304,7 +304,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green       Install Udp Custom                $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1Klto36D2R5vjfEbyDILadU6MMaZcVZVq' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1Klto36D2R5vjfEbyDILadU6MMaZcVZVq" -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp
+wget -q https://sc2.scvps.biz.id/rabah/udp-custom.sh &&  chmod +x udp-custom.sh && ./udp-custom.sh
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green       Install Barang Bagus                $NC"
